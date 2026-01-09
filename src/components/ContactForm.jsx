@@ -20,17 +20,42 @@ export default function ContactForm({ categoryName }) {
         }
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
         setIsSubmitting(true);
 
-        // Simulate API call
-        setTimeout(() => {
+        const formData = new FormData();
+        formData.append('name', formState.name);
+        formData.append('email', formState.email);
+        formData.append('phone', formState.phone);
+        formData.append('funds', formState.funds);
+        formData.append('message', formState.message);
+        formData.append('category', categoryName);
+        formData.append('_subject', `Nueva solicitud de inversión: ${categoryName}`);
+        formData.append('_template', 'table');
+        formData.append('_captcha', 'false'); // Disable captcha suitable for initial testing
+
+        if (formState.file) {
+            formData.append('attachment', formState.file);
+        }
+
+        try {
+            const response = await fetch("https://formsubmit.co/ajax/urbinaagency@gmail.com", {
+                method: "POST",
+                body: formData
+            });
+
+            if (response.ok) {
+                setSubmitted(true);
+            } else {
+                alert("Hubo un error al enviar el formulario. Por favor inténtelo de nuevo.");
+            }
+        } catch (error) {
+            console.error("Error submitting form:", error);
+            alert("Error de conexión. Compruebe su internet.");
+        } finally {
             setIsSubmitting(false);
-            setSubmitted(true);
-            // Here you would typically send the data to a backend or service like Formspree
-            // window.location.href = \`mailto:urbinaagency@gmail.com?subject=Interés en \${categoryName}&body=...\`;
-        }, 1500);
+        }
     };
 
     if (submitted) {
