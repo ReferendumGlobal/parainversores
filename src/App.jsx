@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import Home from './components/Home';
+import ScrollToTop from './components/ScrollToTop';
 import { categories } from './data';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronRight, ShieldCheck, TrendingUp, Handshake } from 'lucide-react';
@@ -19,12 +20,10 @@ function CategoryPage({ categoryId }) {
       exit={{ opacity: 0, y: -10 }}
       transition={{ duration: 0.4 }}
     >
-      {/* Padding top is handled by main container, but we need extra spacing because of fixed navbar overlap on inner pages if not careful. 
-            However, Home handles its own hero. Category page needs the hero top spacing. 
-            The Navbar is fixed h-20. The Hero is 60vh. 
-        */}
-
       {/* Hero Section for Category */}
+      {/* Mobile stability: min-h-[60vh] ensures it doesn't jump. pt-28 is safer for mobile than pt-32 if header is smaller. 
+          But header is h-20 (80px). pt-32 (128px) gives 48px gap. Good. 
+      */}
       <div className="relative min-h-[60vh] h-auto flex items-center justify-center overflow-hidden pt-32 pb-20">
         <div className="absolute inset-0">
           <img
@@ -158,6 +157,7 @@ function AppContent() {
 function App() {
   return (
     <HashRouter>
+      <ScrollToTop />
       <AppContent />
     </HashRouter>
   );
