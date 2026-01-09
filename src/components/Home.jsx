@@ -64,9 +64,31 @@ export default function Home() {
                         <div className="absolute -inset-4 bg-gold-500/5 rounded-2xl transform rotate-3"></div>
                         <div className="relative bg-midnight-900 border border-white/5 p-8 rounded-2xl">
                             <h3 className="text-2xl font-serif text-gold-400 mb-6">Un Legado de Honor</h3>
+
+                            <div className="mb-8 flex justify-center gap-4">
+                                <div className="relative w-1/2 transform -rotate-2 hover:rotate-0 transition-transform duration-500">
+                                    <div className="absolute inset-0 border-2 border-gold-500/20 translate-x-2 translate-y-2 rounded-lg"></div>
+                                    <img
+                                        src="/grandparents.jpg"
+                                        alt="Francisco y Angelita Urbina"
+                                        className="rounded-lg shadow-2xl sepia-[0.3] grayscale-[0.2] border border-white/10"
+                                    />
+                                    <p className="text-xs text-center text-gray-500 mt-2 font-serif italic">Francisco y Angelita Urbina</p>
+                                </div>
+                                <div className="relative w-1/3 transform rotate-3 hover:rotate-0 transition-transform duration-500 mt-8">
+                                    <div className="absolute inset-0 border-2 border-gold-500/20 translate-x-2 translate-y-2 rounded-full"></div>
+                                    <img
+                                        src="/legacy_coin.jpg"
+                                        alt="Jose Maria Urbina Legacy"
+                                        className="rounded-full shadow-2xl sepia-[0.5] grayscale-[0.2] border border-white/10 aspect-square object-cover"
+                                    />
+                                    <p className="text-xs text-center text-gray-500 mt-2 font-serif italic">Legado J.M. Urbina</p>
+                                </div>
+                            </div>
+
                             <div className="space-y-6 text-gray-400 leading-relaxed text-lg">
                                 <p>
-                                    La tradición de Urbina Agency no nace en los mercados, sino en el honor y el servicio. Nuestro ADN proviene de <strong>Francisco y Angelita Urbina</strong>, mis abuelos, quienes cimentaron los valores de familia y palabra.
+                                    La tradición de Urbina Agency no nace en los mercados, sino en el honor y el servicio. Nuestro ADN proviene de <strong>Francisco y Angelita Urbina</strong> (en la foto), mis abuelos, quienes cimentaron los valores de familia y palabra.
                                 </p>
                                 <p>
                                     Y de mi bisabuelo, <strong>José María Urbina</strong>, alto cargo militar y miembro de la <strong>CIA</strong>. De él aprendimos que la información más valiosa es la que se protege, y que el éxito de una misión depende de la precisión y el silencio.
