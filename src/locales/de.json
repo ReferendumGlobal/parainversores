@@ -1,0 +1,39 @@
+{
+    "nav": {
+        "investments": "Investments",
+        "hotels": "Hotels",
+        "land": "Land",
+        "luxury": "Luxury",
+        "wineries": "Wineries",
+        "blog": "Blog",
+        "agencies": "For Agencies"
+    },
+    "hero": {
+        "shield": "The Art of Discretion",
+        "subtitle": "We work with a portfolio that is <strong>not published on real estate portals</strong> but is of high quality. Our clients entrust us with valuable secrets, and we return successful businesses.",
+        "cta": "Enter Portfolio"
+    },
+    "legacy": {
+        "title": "A Legacy of Honor",
+        "text1": "The tradition of Urbina Agency is not born in the market, but in honor and service. Our DNA comes from Francisco and Angelita Urbina, my grandparents.",
+        "text2": "And from my great-grandfather, Jose Maria Urbina, a high-ranking military officer. From him, we learned that the most valuable information is protected.",
+        "secrets_title": "Valuable Secrets",
+        "secrets_text": "We treat every investment intention as high-level classified information.",
+        "success_title": "Declassified Success",
+        "success_text": "The only trace we leave is success."
+    },
+    "footer": {
+        "title": "FOR INVESTORS",
+        "description": "Specialists in high-value real estate asset management.",
+        "contact_title": "Corporate Contact",
+        "legal_title": "Legal",
+        "terms": "Terms & Conditions",
+        "privacy": "Privacy Policy",
+        "disclaimer": "Disclaimer",
+        "rights": "All rights reserved."
+    },
+    "seo": {
+        "title": "For Investors | Luxury Real Estate Assets Worldwide",
+        "description": "Exclusive portfolio of hotels, land, wineries, and ultra-luxury properties. Expert management by Urbina Agency LLC."
+    }
+}

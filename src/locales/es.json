@@ -1,0 +1,39 @@
+{
+    "nav": {
+        "investments": "Inversiones",
+        "hotels": "Hoteles",
+        "land": "Terrenos",
+        "luxury": "Lujo",
+        "wineries": "Bodegas",
+        "blog": "Blog",
+        "agencies": "Para Agencias"
+    },
+    "hero": {
+        "shield": "El Arte de la Discreción",
+        "subtitle": "Aquí encontrará todas las oportunidades que <strong>no aparecen en Idealista</strong> ni en portales inmobiliarios. Nuestros clientes nos entregan secretos valiosos en forma de inversiones, y nosotros les devolvemos negocios exitosos de alto nivel.",
+        "cta": "Acceder al Portafolio"
+    },
+    "legacy": {
+        "title": "Un Legado de Honor",
+        "text1": "La tradición de Urbina Agency no nace en los mercados, sino en el honor y el servicio. Nuestro ADN proviene de Francisco y Angelita Urbina, mis abuelos.",
+        "text2": "Y de mi bisabuelo, José María Urbina, alto cargo militar. De él aprendimos que la información más valiosa es la que se protege.",
+        "secrets_title": "Secretos Valiosos",
+        "secrets_text": "Tratamos cada intención de inversión como información clasificada de alto nivel.",
+        "success_title": "Éxito Desclasificado",
+        "success_text": "El único rastro que dejamos es el éxito."
+    },
+    "footer": {
+        "title": "PARA INVERSORES",
+        "description": "Especialistas en la gestión de activos inmobiliarios de alto valor.",
+        "contact_title": "Contacto Corporativo",
+        "legal_title": "Legal",
+        "terms": "Términos y Condiciones",
+        "privacy": "Política de Privacidad",
+        "disclaimer": "Aviso Legal",
+        "rights": "Todos los derechos reservados."
+    },
+    "seo": {
+        "title": "Para Inversores | Activos Inmobiliarios de Lujo en España y Europa",
+        "description": "Cartera exclusiva de hoteles, terrenos, bodegas y propiedades de lujo desde 1M€ hasta 150M€. Gestión experta de Urbina Agency LLC."
+    }
+}
