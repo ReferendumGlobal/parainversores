@@ -50,6 +50,15 @@ export default function Navbar({ categories }) {
                             >
                                 Blog
                             </Link>
+                            <Link
+                                to="/agencias"
+                                className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200 ${currentPath === 'agencias'
+                                    ? 'text-gold-400 bg-white/5 border border-white/5'
+                                    : 'text-gray-300 hover:text-white hover:bg-white/5'
+                                    }`}
+                            >
+                                Para Agencias
+                            </Link>
                         </div>
                     </div>
 
@@ -108,6 +117,19 @@ export default function Navbar({ categories }) {
                                 <div className="flex items-center gap-3">
                                     <span className="text-gold-500 w-5 flex justify-center">•</span>
                                     Blog
+                                </div>
+                            </Link>
+                            <Link
+                                to="/agencias"
+                                onClick={() => setIsOpen(false)}
+                                className={`block px-3 py-4 rounded-md text-base font-medium ${currentPath === 'agencias'
+                                    ? 'text-gold-400 bg-white/5'
+                                    : 'text-gray-300 hover:text-white hover:bg-white/5'
+                                    }`}
+                            >
+                                <div className="flex items-center gap-3">
+                                    <span className="text-gold-500 w-5 flex justify-center">•</span>
+                                    Para Agencias
                                 </div>
                             </Link>
                             <div className="border-t border-white/10 mt-4 pt-4 px-3 flex items-center justify-between">
