@@ -15,6 +15,7 @@ import Agencies from './components/Agencies';
 import { useTranslation } from 'react-i18next';
 import './i18n';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
+import SeoHead from './components/SeoHead';
 
 function CategoryPage({ categoryId }) {
   const currentCategory = categories[categoryId];

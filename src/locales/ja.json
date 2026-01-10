@@ -1,12 +1,13 @@
 {
     "nav": {
-        "investments": "Investments",
-        "hotels": "Hotels",
-        "land": "Land",
-        "luxury": "Luxury",
-        "wineries": "Wineries",
+        "inversiones": "Real Estate Investments",
+        "hoteles": "Hotels for Sale",
+        "terrenos": "Land for Sale",
+        "lujo": "Luxury Properties",
+        "bodegas": "Wineries for Sale",
         "blog": "Blog",
-        "agencies": "For Agencies"
+        "agencies": "For Real Estate Agencies",
+        "search": "Property Search"
     },
     "hero": {
         "shield": "The Art of Discretion",
@@ -36,6 +37,17 @@
         "title": "For Investors | Luxury Real Estate Assets Worldwide",
         "description": "Exclusive portfolio of hotels, land, wineries, and ultra-luxury properties. Expert management by Urbina Agency LLC."
     },
+    "search": {
+        "title": "Off-Market Asset Search",
+        "subtitle": "Access the largest database of hidden assets in Spain and Europe.",
+        "placeholder": "Enter location (e.g., Madrid, Ibiza, Paris...)",
+        "button": "Search Properties",
+        "results_found": "We have detected off-market assets available in",
+        "cta_text": "For confidentiality reasons, we do not publish details. Complete the form to receive the blind dossier.",
+        "cta_button": "Request Dossier",
+        "no_results": "No public results. Contact us for a custom search.",
+        "available_multiple": "Available"
+    },
     "categories": {
         "inversiones": {
             "title": "Real Estate Investments",
@@ -48,6 +60,19 @@
                 "Comprehensive technical, legal, and financial Due Diligence.",
                 "Structuring of investment vehicles.",
                 "Post-acquisition Asset Management."
+            ]
+        },
+        "hoteles": {
+            "title": "Hotels for Sale",
+            "description": "Exclusive selection of hotel assets in major tourist areas of Spain, Europe, and global destinations.",
+            "longDescription": "The hotel sector is the jewel of our crown. We have direct access to owners of hotel chains, independent boutique hotels, and luxury resorts operating 'off-market'. We look for assets with repositioning potential, flexible management contracts, or stabilized yields in irreplaceable locations.",
+            "priceRange": "From €1M to €150M",
+            "details": "Management, franchise, or pure purchase opportunities.",
+            "features": [
+                "Urban hotels in European capitals (Madrid, Paris, London).",
+                "Beachfront vacation resorts (Balearic Islands, Costa del Sol).",
+                "Buildings with hotel license for renovation.",
+                "Sale & Leaseback with top-tier operators."
             ]
         },
         "hoteles": {
